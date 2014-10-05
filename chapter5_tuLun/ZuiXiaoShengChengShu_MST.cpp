@@ -2,6 +2,11 @@
 #include <iostream>
 using namespace std;
 
+struct edge{
+  int beg,en;
+  int weight;
+};
+edge allEdges[N];
 int main(){
 
 
